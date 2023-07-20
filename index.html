@@ -249,6 +249,8 @@
         }
 
         .genre-list-two{
+            text-align: center;
+            align-items: center;
             justify-content: space-around;
             display: flex;
             list-style-type: none;
@@ -323,6 +325,101 @@
             color: white;
             padding-bottom: 5%;
         }
+
+        @media screen and (max-width: 768px) {
+  /* Adjust navigation bar for smaller screens */
+  nav {
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .Khela-hobe {
+    padding-left: 10px;
+  }
+
+  .Khela-hobe-nav-bar {
+    padding-right: 10px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .goat,
+  .We-are-gamer,
+  .collections,
+  .anywhere,
+  .genres,
+  .the-end {
+    padding: 5%;
+  }
+
+  .goat {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .goat img {
+    margin-bottom: 20px;
+  }
+
+  .goat-features {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .goat-sign-in,
+  .goat-go-rogue {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .We-are-gamer {
+    flex-direction: column;
+  }
+
+  .we-are-gamer-image,
+  .we-are-gamer-desc {
+    text-align: center;
+    padding: 0;
+  }
+
+  .we-are-gamer-desc p {
+    padding: 0 10px;
+  }
+
+  .collections {
+    text-align: center;
+    padding: 5%;
+  }
+
+  .collection-images {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .collection-images img {
+    max-width: 100%;
+  }
+
+  .anywhere {
+    flex-direction: column;
+  }
+
+  .anywhere-images {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .anywhere-desc {
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .genre-list-one,
+  .genre-list-two {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 
 
     
