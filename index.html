@@ -8,12 +8,11 @@
     <style>
         /* Basic styling for the navigation bar */
         body {
-          margin: 0;
-          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
     
         nav {
-          background-color: #f8bdef;
+          background-color: #ffddfa;
           color: #fff;
           display: flex;
           align-items: center;
@@ -66,6 +65,8 @@
             align-items: center;
             gap: 30px;
         }
+
+        /* GOAT */
 
         .goat{
             background-color: #fff7fe;
@@ -124,6 +125,181 @@
            font-size: 25px;
            margin-left: -10%;
         }
+
+        /* We are gamer */
+
+        .We-are-gamer{
+            display: flex;
+            padding-top: 5%;
+            align-items: center;
+        }
+
+        .we-are-gamer-image{
+            flex: 1;
+            padding-left: 8%;
+        }
+
+        .we-are-gamer-desc{
+            flex: 1;
+            text-align: right; 
+            padding-right: 12%;          
+        }
+
+        .we-are-gamer-title{
+            font-size: 45px;
+            font-weight: 1200;
+            background: linear-gradient(to top, #000ad0, #8c34de);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .know-more{
+            height: 50px;
+            width: 120px;
+            background-color: rgb(255, 46, 116);
+            border: none;
+            border-radius: 25px;
+            color: whitesmoke;
+            font-size: large;
+        }
+
+        .know-more:hover{
+            background-color: whitesmoke;
+            color:rgb(255, 46, 116) ;
+            border: 1px solid rgb(255, 46, 116);
+        }
+
+        .We-are-gamer-ending{
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        /* Collection */
+        .collections{
+         text-align: center;
+         padding-top: 5% ;
+         padding-bottom: 3%;
+        }
+
+        .funny-videos{
+            color: #000ad0;
+        }
+
+
+         .collection-images {
+         display: flex;
+         justify-content: center;
+        }
+
+         .collection-images img{
+         margin: 0 5px;
+         flex: 1;
+        }
+
+         .collection-images img:first-child{
+         padding-left: 20px;
+        }
+
+         .collection-images img:last-child{
+         padding-right: 20px;
+        }
+
+        .collection-images:hover{
+            border: 2px solid blue;
+        }
+
+        /* anywhere */
+
+        .anywhere{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .anywhere-desc{
+            padding-top: 8%;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .anywhere-title{
+            color: #8c34de;
+            font-weight: 800;
+        }
+
+        .anywhere-images{
+            display: flex;
+            flex-direction: row;
+        }
+
+        /* genres */
+
+        .genres{
+            padding-top: 8%;
+            padding-bottom: 8%;
+            align-items: center;
+        }
+
+        .genre-list-one{
+            text-align: center;
+            align-items: center;
+            justify-content: space-around;
+            display: flex;
+            list-style-type: none;
+        }
+
+        .genre-list-two{
+            justify-content: space-around;
+            display: flex;
+            list-style-type: none;
+        }
+
+        .Action-Games:hover{
+            border: 3px solid black;
+            border-radius: 25px;
+        }
+
+        .Adventure-Games:hover{
+            border: 3px solid black;
+            border-radius: 25px;
+        }
+
+        .Arcade-Games:hover{
+            border: 3px solid black;
+            border-radius: 25px;
+        }
+
+        .role-play:hover{
+            border: 3px solid black;
+            border-radius: 25px;
+        }
+
+        .musicnaudio:hover{
+            border: 3px solid black;
+            border-radius: 25px;
+        }
+
+        .educ:hover{
+            border: 3px solid black;
+            border-radius: 25px;
+        }
+
+        .wordgames:hover{
+            border: 3px solid black;
+            border-radius: 25px;
+        }
+
+        .puzzled:hover{
+            border: 3px solid black;
+            border-radius: 25px;
+        }
+
+        .Strategy-games:hover{
+            border: 3px solid black;
+            border-radius: 25px;
+        }
+
+
     
       </style>
     
@@ -147,7 +323,7 @@
 
     <div class="goat">
         <section class="play-goat">
-            <h4>PLAY LIKE THE <br> <span class="goat-title">G.O.A.T.</span> </h4>
+            <h1>PLAY LIKE THE <br> <span class="goat-title">G.O.A.T.</span> </h1>
             <ul class="goat-features">
                 <li>1-click instant play</li>
                 <li>No download</li>
@@ -157,11 +333,72 @@
             <button class="goat-go-rogue">Go Rogue</button>
         </section>
 
-        <section class="goat-image">
+        <section>
             <img src="images/Group 18.png" alt="">
         </section>
-
     </div>
+
+    <div class="We-are-gamer">
+        <section class="we-are-gamer-image">
+            <img src="images/pngwing 4.png" alt="">
+        </section>
+
+        <section class="we-are-gamer-desc">
+            <h2 class="we-are-gamer-title">We are gamer</h2>
+            <p>An international digital games and entertainment company. We develop, publish and distribute multiplayer mobile games. We reach over 400 million players each month and our audience keeps growing</p>
+            <button class="know-more">Know more</button>
+            <p>Our purpose....</p>
+            <p class="We-are-gamer-ending">"unleash the gamer in everyone"</p>
+        </section>
+    </div>
+
+    <div class="collections">
+        <h1 class="collections-title">Online games & <span class="funny-videos">Funny Videos</span></h1>
+        <p class="collections-desc">A collection of good games and funny videos to brighten your day</p>
+
+        <div class="collection-images"></div>
+        <img src="images/Rectangle 4.png" alt="" class="src">
+        <img src="images/Rectangle 5.png" alt="" class="src">
+        <img src="images/Rectangle 6.png" alt="" class="src">
+        <img src="images/Rectangle 7.png" alt="" class="src">
+    </div>
+
+    <div class="anywhere">
+        <div class="anywhere-images">
+            <div class="big-image">
+                <img src="images/Rectangle 67.png" alt="">
+            </div>
+            <div class="small-image">
+                <img src="images/Rectangle 78.png" alt="">
+            </div>                      
+        </div>
+
+        <div class="anywhere-desc">
+            <h1><span class="anywhere-title">Play games online</span> anywhere, anytime!</h1>
+            <p>PC, dads phone, moms phone or your chromebook, with gamer you can play your favourite games online for free, any time, anywhere, on any device</p>
+        </div>
+    </div>
+
+    <div class="genres">
+        <ul class="genre-list-one">
+            <li class="Action-Games"><a href=""></a><img src="images/Rectangle 11.png" alt="">Action Games</li>
+            <li class="Adventure-Games"><a href=""></a><img src="images/Rectangle 13.png" alt="">Adventure Games</li>
+            <li class="Arcade-Games"><a href=""></a><img src="images/Rectangle 12.png" alt="">Arcade Games</li>
+            <li class="role-play"><a href=""></a><img src="images/Rectangle 16.png" alt="">Role playing games</li>
+            <li class="musicnaudio"><a href=""></a><img src="images/Rectangle 15.png" alt="">Music & Audio games</li>
+        </ul>
+
+        <ul class="genre-list-two">
+            <li class="educ"><a href=""></a><img src="images/Rectangle 18.png" alt="">Educational games</li>
+            <li class="wordgames"><a href=""></a><img src="images/Rectangle 14.png" alt="">Word Games</li>
+            <li class="puzzled"><a href=""></a><img src="images/Rectangle 19.png" alt="">Puzzle Games</li>
+            <li class="Strategy-games"><a href=""></a><img src="images/Rectangle 17.png" alt="">Strategy Games</li>
+        </ul>
+    </div>
+
+    <footer></footer>
+
+    
     
 </body>
 </html>
